@@ -3,6 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Font Awesome -->
+        <script
+            src="https://kit.fontawesome.com/414497fdb7.js"
+            crossorigin="anonymous"
+        ></script>
         <!-- Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -97,13 +102,95 @@
         <title>F8 Project 10</title>
     </head>
     <body>
-        <div class="container">
-            <h1>My First Bootstrap Page</h1>
-            <p>This part is inside a .container class.</p>
-            <p>
-                The .container class provides a responsive fixed width
-                container.
-            </p>
-        </div>
+        <header class="header">
+            <div class="container-fluid">
+                <section class="container header__container">
+                    <a href="#!" class="header__logo">Togi</a>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link nav-item__link" href="#"
+                                >Products</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-item__link" href="#"
+                                >Pricing</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-item__link" href="#"
+                                >Company</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-item__link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                    <div class="header__action">
+                        <a href="#!" class="btn btn__header-login">Log in</a>
+                        <a href="#!" class="btn btn__header-started"
+                            >Get Started</a
+                        >
+                    </div>
+                </section>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <div class="hero-menu">
+                            <ul class="menu-list">
+                                <li class="menu-item">
+                                    <a href="#!"
+                                        ><i
+                                            class="fa-brands fa-facebook custom-icon"
+                                        ></i
+                                    ></a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#!"
+                                        ><i
+                                            class="fa-brands fa-linkedin custom-icon"
+                                        ></i
+                                    ></a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#!"
+                                        ><i
+                                            class="fa-brands fa-twitter custom-icon"
+                                        ></i
+                                    ></a>
+                                </li>
+                            </ul>
+                            <h3 class="menu-text__down">DOWN SCROLL</h3>
+                            <a href="#!" class="menu-arrow__down">
+                                <img
+                                    src="./assets/img/icon/Down-Arrow.svg"
+                                    alt="down-arrow"
+                                />
+                            </a>
+                        </div>
+                        <div class="hero-content">
+                            <h1 class="hero-content__title">
+                                More than your average popup builder
+                            </h1>
+                            <p class="hero-content__desc">
+                                Everything you need—forms, sidebars, slide-ins,
+                                gamification—to turn your traffic into revenue.
+                            </p>
+                            <a href="#!" class="btn hero-content__btn"
+                                >Start your free trial</a
+                            >
+                        </div>
+                        <img
+                            src="./assets/img/hero__images.png"
+                            alt="hero-img"
+                            class="hero-img"
+                        />
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
