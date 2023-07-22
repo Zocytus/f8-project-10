@@ -237,3 +237,112 @@ button {
 .feature-btn {
     margin: 0;
 }
+/* Service */
+.service {
+    margin-top: 80px;
+}
+
+.service-heading {
+    margin-top: 80px;
+    margin-left: 12%;
+}
+.service-info {
+    color: #79d861;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.service-title {
+    width: 409px;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+}
+.service-content {
+    margin: 64px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 28px;
+    row-gap: 40px;
+}
+.service-item {
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 170px;
+    border-radius: 8px;
+    border: 1px solid #292932;
+    transition: background-color 0.2s ease-in;
+}
+.service-item:hover {
+    background-color: #9999b0;
+}
+.service-item__icon {
+    width: 96px;
+    height: 96px;
+}
+.service-item__title {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.service-item__desc {
+    width: 260px;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    opacity: 0.75;
+}
+/* Help */
+.help {
+    margin-top: 80px;
+}
+.help-heading {
+    margin-top: 80px;
+    text-align: center;
+}
+.help-title {
+    margin-bottom: 8px;
+    color: #79d861;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.help-desc {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+}
+.help-content {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    column-gap: 138px;
+}
+.help-content__img {
+    width: 426px;
+    height: 377px;
+}
