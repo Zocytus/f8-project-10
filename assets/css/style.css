@@ -174,3 +174,66 @@ button {
     width: 454px;
     height: 443px;
 }
+/* Features */
+.features {
+    margin-top: 120px;
+}
+.feature__inner {
+    display: flex;
+    justify-content: space-around;
+}
+.feature-img {
+    position: relative;
+}
+.feature__img {
+    width: 448px;
+    height: 436px;
+    margin-left: 40px;
+}
+.feature__img-dot {
+    display: flex;
+    width: 204px;
+    height: 204px;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: -10%;
+}
+.feature-email {
+    margin-bottom: 8px;
+    color: #79d861;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.feature-title {
+    width: 409px;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+.feature-desc {
+    width: 328px;
+    color: #b0b0b0;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 28px;
+}
+.feature-desc.last {
+    width: 380px;
+    margin-bottom: 48px;
+}
+.feature-btn {
+    margin: 0;
+}
