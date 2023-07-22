@@ -346,3 +346,69 @@ button {
     width: 426px;
     height: 377px;
 }
+/* Popups */
+.popups {
+    margin-top: 80px;
+}
+.popups-heading {
+    margin-top: 80px;
+    margin-left: 12%;
+}
+.popups-title {
+    color: #79d861;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.popups-desc {
+    width: 409px;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px; /* 129.412% */
+}
+.popups-images {
+    text-align: center;
+    margin-top: 60px;
+}
+.popups-img {
+    width: 980px;
+    height: 179px;
+}
+/* Work */
+.work {
+    margin-top: 80px;
+}
+.work-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.work-title {
+    color: #79d861;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.work-desc {
+    width: 510px;
+    color: #fff;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+}
