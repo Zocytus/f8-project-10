@@ -412,3 +412,115 @@ button {
     font-weight: 500;
     line-height: 44px;
 }
+.work-list {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.work-item {
+    width: 420px;
+    height: 320px;
+    border-radius: 8px;
+    border: 1px solid #292932;
+    transition: background 0.3s ease;
+}
+.work-item:hover {
+    background: #292932;
+}
+.work-item:hover .work-item__svg-icon {
+    background-color: #ff5b2e;
+}
+.work-item__svg-icon {
+    margin: 62px 0 30px 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 96px;
+    font-size: 40px;
+    color: #fff;
+    border-radius: 8px;
+    background: #292932;
+    transition: background-color 0.3s ease;
+}
+.work-item__content {
+    margin-left: 62px;
+}
+.work-item__title {
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.work-item__desc {
+    width: 340px;
+    color: #b0b0b0;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* Team Work */
+.team-work {
+    margin-top: 80px;
+}
+.team-work__inner {
+    display: flex;
+    column-gap: 138px;
+    justify-content: center;
+    align-items: center;
+}
+.team-work__img {
+    position: relative;
+    margin-left: 8%;
+}
+.team-work__img-item {
+    width: 370px;
+    height: 296px;
+}
+.team-work__img-item-small {
+    position: absolute;
+    width: 218px;
+    height: 166px;
+    z-index: 1;
+    bottom: -30%;
+    left: -24%;
+}
+
+.team-work__title {
+    margin-bottom: 8px;
+    color: #79d861;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.team-work__heading {
+    margin-bottom: 28px;
+    width: 446px;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+}
+.team-work__desc {
+    width: 382px;
+    color: #b0b0b0;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
